@@ -1,0 +1,9 @@
+Configure miss: sgemm_ in -lRblas
+Configure miss: sgemm_ in -lRblas
+Configure miss: sgemm_ in -lRblas
+Configure miss: sgetrf_ in -lRblas
+Configure miss: sgetrf_ in -lRblas
+Configure miss: sgetrf_ in -lRblas
+Configure miss: sgetrf_ in -lRlapack
+Configure miss: sgetrf_ in -lRlapack
+Configure miss: sgetrf_ in -lRlapack
