@@ -4,12 +4,12 @@
 #
 Name     : R-float
 Version  : 0.2.4
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/float_0.2-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/float_0.2-4.tar.gz
 Summary  : 32-Bit Floats
 Group    : Development/Tools
-License  : BSD-2-clause BSD-3-Clause
+License  : BSD-3-Clause
 Requires: R-float-lib = %{version}-%{release}
 BuildRequires : buildreq-R
 
@@ -44,10 +44,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1631298515
+export SOURCE_DATE_EPOCH=1631299783
 
 %install
-export SOURCE_DATE_EPOCH=1631298515
+export SOURCE_DATE_EPOCH=1631299783
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
