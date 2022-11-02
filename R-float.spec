@@ -4,7 +4,7 @@
 #
 Name     : R-float
 Version  : 0.3.0
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/float_0.3-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/float_0.3-0.tar.gz
 Summary  : 32-Bit Floats
