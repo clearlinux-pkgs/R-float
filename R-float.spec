@@ -4,7 +4,7 @@
 #
 Name     : R-float
 Version  : 0.3.1
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/float_0.3-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/float_0.3-1.tar.gz
 Summary  : 32-Bit Floats
@@ -13,9 +13,6 @@ License  : BSD-2-Clause BSD-3-Clause
 Requires: R-float-lib = %{version}-%{release}
 Requires: R-float-license = %{version}-%{release}
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 (double precision) vectors/matrices. However, sometimes single precision (or
@@ -57,10 +54,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676566506
+export SOURCE_DATE_EPOCH=1678819669
 
 %install
-export SOURCE_DATE_EPOCH=1676566506
+export SOURCE_DATE_EPOCH=1678819669
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-float
 cp %{_builddir}/float/src/lapack/LICENSE %{buildroot}/usr/share/package-licenses/R-float/a8513998d02e2b32909109fb55411ea61e6c3428 || :
